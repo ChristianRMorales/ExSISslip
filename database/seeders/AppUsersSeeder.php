@@ -21,6 +21,7 @@ class AppUsersSeeder extends Seeder
                 'password' => Hash::make('password123'),
                 'user_type' => 'counselor',
             ],
+            
             // Add more user data as needed
         ]);
     }
